@@ -1,0 +1,23 @@
+# 账号与运行数据：绝对不要提交
+config.yml
+config.json
+.device_id
+logs/
+*.log
+
+# 构建产物
+build/
+dist/
+*.exe
+__pycache__/
+*.py[cod]
+
+# 第三方二进制（自行放置，见 README）
+resources/login-api.jar
+
+# 本地环境
+.venv/
+venv/
+.idea/
+.vscode/
+*.apk
